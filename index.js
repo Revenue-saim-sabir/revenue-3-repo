@@ -11,7 +11,6 @@ const invoicerouter = require('./routes/invoiceRoute.js');
 const awardrouter = require("./routes/awardRoute.js");
 const messagerouter = require("./routes/messageRoute.js");
 const orderrouter = require("./routes/orderRoute.js");
-const uploadrouter = require("./routes/uploadRoute.js");
 
 
 const corsOptions ={
@@ -31,7 +30,7 @@ app.use('/withdraw', withdrawrouter);
 app.use('/billing', billingrouter);
 app.use('/message', messagerouter);
 app.use('/orders', orderrouter);
-app.use('/uploads', uploadrouter);
+app.use('/uploads',  express.static('./uploads'));
 
 
 const port = 8000 ;
