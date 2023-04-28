@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^$ http://https://janbaazgroupofpakistan.site/index.js [L, R=301]
+RewriteRule ^$ http://https://janbaazgroupofpakistan.site/ [L, R=301]
