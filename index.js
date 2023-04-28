@@ -14,7 +14,7 @@ const orderrouter = require("./routes/orderRoute.js");
 
 
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://revenugenerator.com', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
